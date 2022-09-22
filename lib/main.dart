@@ -1,5 +1,8 @@
 import 'package:agri_suit/screens/home_screen.dart';
 import 'package:agri_suit/screens/input_screen.dart';
+import 'package:agri_suit/screens/listview_screen.dart';
+import 'package:agri_suit/screens/players_grid_screen.dart';
+import 'package:agri_suit/screens/players_list_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -20,7 +23,7 @@ class MyApp extends StatelessWidget {
 
         primarySwatch: Colors.blue,
       ),
-      home: InputScreen()
+      home: const PlayersListScreen(),
       //home: const MyHomePage(title: 'Flutter Demo Home Page'),
     );
   }
